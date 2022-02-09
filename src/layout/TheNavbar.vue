@@ -6,7 +6,7 @@
               shadow-2xl bg-opacity-30"
        style="backdrop-filter: blur(2px);">
 
-    <router-link to="/">Home</router-link>
+    <router-link class="font-sansita-regular text-2xl"  to="/">Home</router-link>
     <router-link to="/about">About</router-link>
   </nav>
 </template>

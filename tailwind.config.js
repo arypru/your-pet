@@ -5,6 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'opensans-regular': ['OpenSans-Regular'],
+      'sansita-bold-italic': ['Sansita-BoldItalic'],
+      'sansita-regular': ['Sansita-Regular'],
+    }
   },
   plugins: [],
 }
