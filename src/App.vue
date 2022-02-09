@@ -1,13 +1,17 @@
 <template>
   <div id="app" class="bg">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
+    <the-navbar/>
     <router-view/>
   </div>
 </template>
 
+<script>
+import TheNavbar from "./layout/TheNavbar"
+
+export default {
+  components: {TheNavbar}
+}
+</script>
 
 <style>
 body, html {
