@@ -1,5 +1,5 @@
 <template>
-    <router-link exact-active-class="text-red-500 text-4xl font-italic underline decoration-wavy"  :to="link" class="hover:underline hover:decoration-wavy text-3xl hover:font-bold text-white hover:text-white rounded-md font-sansita"> {{ texto }}</router-link>
+    <router-link exact-active-class="text-red-500 text-4xl font-sansita-regular underline decoration-wavy"  :to="link" class="hover:underline hover:decoration-wavy text-3xl hover:font-bold text-white hover:text-white rounded-md font-sansita-regular"> {{ texto }}</router-link>
 </template>
 
 <script>
