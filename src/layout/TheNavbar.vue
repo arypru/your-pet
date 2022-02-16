@@ -6,8 +6,8 @@
               shadow-2xl bg-opacity-30"
        style="backdrop-filter: blur(2px);">
 
-    <!--SEO - alt="describir el contenido del elemento grafico"-->
-    <img class="h-28 ml-6" :src=" '/images/bff.png' " alt="perro y gato" title="Tu Mascota">
+    <!--SEO - alt="describir el contenido del elemento grafico"
+    <img class="h-28 ml-6" :src=" '/images/bff.png' " alt="perro y gato" title="Tu Mascota">-->
 
     <navbar-item icon="home" texto="Inicio" link="/"/>
     <navbar-item icon="people_alt" texto="Nosotros" link="/nosotros"/>
