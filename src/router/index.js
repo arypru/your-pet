@@ -7,7 +7,7 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'home',
+    name: 'Tu Mascota',
     component: HomeView
   },
   {
@@ -21,7 +21,13 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  routes
+  routes,
+  history
 })
+
+router.beforeEach((to, from, next) => {
+  document.title = to.name;
+  next();
+});
 
 export default router
