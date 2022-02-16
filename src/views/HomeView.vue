@@ -1,13 +1,25 @@
 <template>
+  <div>
     <the-logo/>
+    <div class="grid grid-cols-2 gap-4">
+      <div>
+        <v-description/>
+      </div>
+
+      <div>
+        <the-header-image/>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
-// @ is an alias to /src
 import TheLogo from "../components/TheLogo"
+import VDescription from "@/components/VDescription";
+import TheHeaderImage from "../components/TheHeaderImage"
+
 export default {
   name: 'HomeView',
-
-  components: {TheLogo}
+  components: {TheLogo, VDescription,TheHeaderImage}
 }
 </script>
