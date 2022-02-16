@@ -1,8 +1,8 @@
 <template>
     <router-link
-        exact-active-class=" text-red-400 text-4xl font-sansita-regular underline decoration-wavy font-bold"
+        exact-active-class="underline underline-offset-8 text-red-400 text-4xl font-sansita-regular font-bold"
         :to="link"
-        class="underline-offset-4 hover:text-red-400 hover:underline hover:decoration-wavy text-3xl hover:font-bold text-white hover:text-red-900 rounded-md font-sansita-regular">
+        class="hover:text-red-400 text-3xl hover:font-bold text-white font-sansita-regular">
       <span class="material-icons ">{{icon}}</span> {{ texto }}
     </router-link>
 </template>
