@@ -14,6 +14,5 @@
         <img class="h-10 pl-2" :src=" '/images/smile.png' " alt="emoji happy">
       </div>
     </div>
-
   </div>
 </template>

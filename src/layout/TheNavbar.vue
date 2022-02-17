@@ -15,7 +15,7 @@
     <navbar-item icon="text_snippet" texto="Requisitos" link="/requisitos"/>
     <navbar-item icon="volunteer_activism" texto="Donar" link="/donar"/>
   </nav>
-</template>s
+</template>
 
 <script>
 import NavbarItem from "../components/NavbarItem"
