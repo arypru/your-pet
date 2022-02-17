@@ -1,10 +1,10 @@
 <template>
   <div>
     <the-logo/>
-
     <div class="grid grid-cols-2 gap-4">
       <div>
         <v-description/>
+        <the-cards-home/>
       </div>
 
       <div>
@@ -18,10 +18,10 @@
 import TheLogo from "../components/TheLogo"
 import VDescription from "@/components/VDescription";
 import TheHeaderImage from "../components/TheHeaderImage"
-//import VCard from "../components/VCard"
+import TheCardsHome from "@/components/TheCardsHome";
 
 export default {
   name: 'HomeView',
-  components: {TheLogo, VDescription,TheHeaderImage}
+  components: {TheLogo, VDescription,TheHeaderImage, TheCardsHome}
 }
 </script>
