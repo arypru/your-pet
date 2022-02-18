@@ -1,16 +1,14 @@
 <template>
   <div id="app" class="bg">
-
-    <div class="grid grid-cols-6 h-full" >
+    <div class="lg:grid lg:grid-cols-6">
       <div>
         <the-navbar/>
       </div>
 
-      <div class="col-span-5">
+      <div class="lg:col-span-5 px-12">
         <router-view/>
       </div>
     </div>
-
   </div>
 </template>
 
