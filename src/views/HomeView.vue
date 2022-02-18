@@ -18,10 +18,10 @@
 import TheLogo from "../components/TheLogo"
 import VDescription from "@/components/VDescription";
 import TheHeaderImage from "../components/TheHeaderImage"
-import TheCardsHome from "@/components/TheCardsHome";
+//import TheCardsHome from "@/components/TheCardsHome";
 
 export default {
   name: 'HomeView',
-  components: {TheLogo, VDescription,TheHeaderImage, TheCardsHome}
+  components: {TheLogo, VDescription,TheHeaderImage}
 }
 </script>

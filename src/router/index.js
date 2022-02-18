@@ -14,6 +14,8 @@ const routes = [
 
 const router = new VueRouter({
   routes,
+  linkActiveClass: "active",
+  linkExactActiveClass: "exact-active",
   mode: 'history',
 })
 
